@@ -2,41 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Mavellium Design System - Premium Tech Brand
+Brand Colors: Petrol Blue (#0C1B33), Emerald Green (#1FBF7A), Off-White (#F9F9F6), Gold (#C89F65)
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Mavellium Brand Colors */
+    --background: 36 13% 97%;        /* Off-white #F9F9F6 */
+    --foreground: 208 52% 13%;       /* Petrol blue #0C1B33 */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 36 13% 97%;
+    --card-foreground: 208 52% 13%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 36 13% 97%;
+    --popover-foreground: 208 52% 13%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 208 52% 13%;          /* Petrol blue #0C1B33 */
+    --primary-foreground: 36 13% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 158 86% 44%;        /* Emerald green #1FBF7A */
+    --secondary-foreground: 208 52% 13%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 36 13% 94%;
+    --muted-foreground: 208 25% 35%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 158 86% 44%;           /* Emerald green #1FBF7A */
+    --accent-foreground: 208 52% 13%;
+
+    --luxury: 39 39% 60%;            /* Gold #C89F65 */
+    --luxury-foreground: 208 52% 13%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 36 13% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 36 13% 90%;
+    --input: 36 13% 92%;
+    --ring: 158 86% 44%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+    
+    /* Premium Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(208 52% 13%) 0%, hsl(208 52% 8%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(158 86% 44%) 0%, hsl(158 86% 35%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(208 52% 13%) 0%, hsl(208 45% 18%) 50%, hsl(158 86% 8%) 100%);
+    --gradient-luxury: linear-gradient(135deg, hsl(39 39% 60%) 0%, hsl(39 39% 50%) 100%);
+    
+    /* Advanced Shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(208 52% 13% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(208 52% 13% / 0.1), 0 2px 4px -1px hsl(208 52% 13% / 0.06);
+    --shadow-lg: 0 10px 15px -3px hsl(208 52% 13% / 0.1), 0 4px 6px -2px hsl(208 52% 13% / 0.05);
+    --shadow-xl: 0 20px 25px -5px hsl(208 52% 13% / 0.1), 0 10px 10px -5px hsl(208 52% 13% / 0.04);
+    --shadow-glow: 0 0 40px hsl(158 86% 44% / 0.15);
+    
+    /* Animation Variables */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -100,6 +124,123 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-satoshi;
+  }
+}
+
+@layer components {
+  /* Premium Animation Classes */
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+  
+  .animate-fade-in-scale {
+    animation: fadeInScale 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+  
+  .animate-slide-in-right {
+    animation: slideInRight 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+  
+  .animate-pulse-glow {
+    animation: pulseGlow 2s ease-in-out infinite;
+  }
+  
+  /* Hover Effects */
+  .hover-lift {
+    transition: var(--transition-smooth);
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
+  }
+  
+  .hover-scale {
+    transition: var(--transition-smooth);
+  }
+  
+  .hover-scale:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Button Variants */
+  .btn-primary {
+    @apply bg-primary text-primary-foreground hover:opacity-90 transition-all duration-300 px-8 py-4 rounded-xl font-medium shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/90 transition-all duration-300 px-8 py-4 rounded-xl font-medium shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-luxury {
+    background: var(--gradient-luxury);
+    @apply text-luxury-foreground hover:opacity-90 transition-all duration-300 px-8 py-4 rounded-xl font-medium shadow-lg hover:shadow-xl;
+  }
+  
+  /* Gradient Text */
+  .text-gradient-primary {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .text-gradient-secondary {
+    background: var(--gradient-secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Section Styling */
+  .section-padding {
+    @apply py-24 px-6 sm:px-8 lg:px-12;
+  }
+  
+  .container-max {
+    @apply mx-auto max-w-7xl;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 20px hsl(var(--secondary) / 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px hsl(var(--secondary) / 0.6);
   }
 }
