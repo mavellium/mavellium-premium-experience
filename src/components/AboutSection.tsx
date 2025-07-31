@@ -4,18 +4,18 @@ const AboutSection = () => {
   const highlights = [
     {
       icon: Target,
-      title: "Landing pages com alta conversão",
-      description: "Criamos páginas que não apenas impressionam, mas convertem visitantes em clientes."
+      title: "Especialistas em páginas de conversão",
+      description: "Cada página que criamos é única, pensada para transmitir autoridade, gerar confiança e vender com eficiência."
     },
     {
       icon: Code,
-      title: "ERP proprietário (em desenvolvimento)",
-      description: "Sistema de gestão empresarial moderno, intuitivo e totalmente customizável."
+      title: "Design estratégico e performance",
+      description: "Combinamos visual refinado com código otimizado para garantir carregamento rápido e excelente experiência."
     },
     {
       icon: Zap,
-      title: "E-commerce moderno (em desenvolvimento)",
-      description: "Plataforma de vendas online otimizada para performance e conversão."
+      title: "Alto padrão visual e técnico",
+      description: "Desenvolvemos landing pages que se destacam pela qualidade, precisão e capacidade de gerar resultados."
     }
   ];
 
@@ -30,14 +30,14 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Somos uma empresa de tecnologia focada em criar soluções digitais que realmente impactam negócios. 
-              Combinamos design excepcional com desenvolvimento de alta performance para entregar experiências 
-              que não apenas encantam, mas convertem.
+              Somos uma empresa 100% especializada no design e desenvolvimento de landing pages de alta performance. 
+              Combinamos estratégia, design excepcional e desenvolvimento técnico refinado para criar páginas 
+              que não apenas encantam, mas convertem com eficiência.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Nossa missão é transformar ideias em produtos digitais que geram resultados mensuráveis, 
-              sempre priorizando a experiência do usuário e a performance técnica.
+              Nossa missão é transformar sua visão em páginas de conversão que geram resultados mensuráveis, 
+              sempre priorizando a autoridade da marca, a confiança do usuário e a performance técnica.
             </p>
           </div>
 

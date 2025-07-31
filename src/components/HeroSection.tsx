@@ -26,14 +26,14 @@ const HeroSection = () => {
       <div className="relative z-10 text-center max-w-6xl mx-auto px-6">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-background mb-6 leading-tight">
-            Soluções digitais com{' '}
-            <span className="text-gradient-secondary">estética</span>{' '}
+            Landing pages que combinam{' '}
+            <span className="text-gradient-secondary">design</span>{' '}
             e{' '}
             <span className="text-gradient-secondary">performance</span>.
           </h1>
           
           <p className="text-xl md:text-2xl text-background/80 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Desenvolvemos experiências que convertem — com foco, clareza e resultado.
+            Desenvolvimento de landing pages com clareza, design estratégico e foco em resultado.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">

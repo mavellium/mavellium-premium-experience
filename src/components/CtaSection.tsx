@@ -15,12 +15,12 @@ const CtaSection = () => {
         <div className="text-center max-w-4xl mx-auto">
           <div className="animate-fade-in-up">
             <h2 className="text-4xl md:text-6xl font-bold text-background mb-6 leading-tight">
-              Vamos construir o próximo projeto de{' '}
+              Vamos construir a próxima landing page de{' '}
               <span className="text-gradient-secondary">alto impacto</span>?
             </h2>
             
             <p className="text-xl text-background/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Transforme sua visão em uma experiência digital que realmente converte. 
+              Transforme sua visão em uma página de conversão que realmente gera resultados. 
               Nossa equipe está pronta para criar algo excepcional com você.
             </p>
 
@@ -51,12 +51,12 @@ const CtaSection = () => {
                 <div className="text-sm text-background/70">Resposta média</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-background mb-2">Gratuita</div>
+                <div className="text-2xl font-bold text-background mb-2">Estratégica</div>
                 <div className="text-sm text-background/70">Consultoria inicial</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-background mb-2">Garantia</div>
-                <div className="text-sm text-background/70">Total satisfação</div>
+                <div className="text-2xl font-bold text-background mb-2">Premium</div>
+                <div className="text-sm text-background/70">Qualidade garantida</div>
               </div>
             </div>
           </div>
