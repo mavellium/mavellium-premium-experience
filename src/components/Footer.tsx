@@ -52,9 +52,8 @@ const Footer = () => {
                 <img 
                   src={mavelliumLogo} 
                   alt="Mavellium" 
-                  className="h-8 w-auto filter brightness-0 invert"
+                  className="h-15 w-auto filter brightness-0 invert"
                 />
-                <span className="text-xl font-bold">Mavellium</span>
               </div>
               
               <p className="text-primary-foreground/80 mb-6 leading-relaxed">
