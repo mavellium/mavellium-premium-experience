@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
-import mavelliumLogo from '@/assets/mavellium-logo.png';
+import mavelliumLogo from '@/assets/mavellium-logo.svg';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -84,14 +84,14 @@ const Header = () => {
                 className="block text-foreground hover:text-secondary transition-colors duration-300"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Portfólio
+                Cases
               </a>
               <a
                 href="#parcerias"
                 className="block text-foreground hover:text-secondary transition-colors duration-300"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Parcerias
+                Notícias
               </a>
               <Button className="btn-secondary w-full mt-4">
                 Fale conosco
