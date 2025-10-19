@@ -1,5 +1,5 @@
 import { Mail, Phone, MapPin, Linkedin, Instagram, Twitter } from 'lucide-react';
-import mavelliumLogo from '@/assets/mavellium-logo.png';
+import mavelliumLogo from '@/assets/mavellium-logo.svg';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
