@@ -56,7 +56,7 @@ export function MaintenanceLandingPage() {
             </div>
             <nav className="hidden md:flex items-center gap-6">
               <a
-                href="https://wa.me/5514991456074?text=Ol%C3%A1%21%20Vi%20que%20o%20site%20est%C3%A1%20em%20manuten%C3%A7%C3%A3o%20e%20gostaria%20de%20conversar%20sobre%20solu%C3%A7%C3%B5es%20para%20meu%20projeto.%20Podemos%20falar%3F"
+                href="https://wa.me/5514991779502?text=Ol%C3%A1%21%20Vi%20que%20o%20site%20est%C3%A1%20em%20manuten%C3%A7%C3%A3o%20e%20gostaria%20de%20conversar%20sobre%20solu%C3%A7%C3%B5es%20para%20meu%20projeto.%20Podemos%20falar%3F"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 rounded-lg bg-[#008E52] px-3 py-2 text-white text-base font-medium shadow-lg shadow-primary/20 hover:bg-[#017346] transition-colors"
