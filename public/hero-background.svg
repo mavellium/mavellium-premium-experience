@@ -1,0 +1,35 @@
+<svg width="1268" height="824" viewBox="0 0 1268 824" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_95_81" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="0" width="1264" height="817">
+<rect width="1264" height="815.02" rx="20" transform="matrix(-1 0 0 1 1268 0.979736)" fill="#232539"/>
+</mask>
+<g mask="url(#mask0_95_81)">
+<g filter="url(#filter1_f_95_81)">
+<g clip-path="url(#paint0_angular_95_81_clip_path)" data-figma-skip-parse="true"><g transform="matrix(-0.185116 0.197857 0.239562 0.15289 341.231 340.898)"><foreignObject x="-1522.74" y="-1522.74" width="3045.48" height="3045.48"><div xmlns="http://www.w3.org/1999/xhtml" style="background:conic-gradient(from 90deg,rgba(0, 95, 54, 1) 0deg,rgba(0, 85, 49, 1) 23.0012deg,rgba(4, 161, 94, 1) 203.243deg,rgba(0, 95, 54, 1) 360deg);height:100%;width:100%;opacity:0.75"></div></foreignObject></g></g><path d="M13.8743 340.898C13.8743 490.218 160.437 611.266 341.231 611.266C522.025 611.266 668.587 490.218 668.587 340.898C668.587 191.578 522.025 70.5308 341.231 70.5308C160.437 70.5308 13.8743 191.578 13.8743 340.898Z" data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.0,&#34;g&#34;:0.33653846383094788,&#34;b&#34;:0.19292013347148895,&#34;a&#34;:1.0},&#34;position&#34;:0.063892103731632233},{&#34;color&#34;:{&#34;r&#34;:0.015686275437474251,&#34;g&#34;:0.63137257099151611,&#34;b&#34;:0.36862745881080627,&#34;a&#34;:1.0},&#34;position&#34;:0.56456440687179565}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.0,&#34;g&#34;:0.33653846383094788,&#34;b&#34;:0.19292013347148895,&#34;a&#34;:1.0},&#34;position&#34;:0.063892103731632233},{&#34;color&#34;:{&#34;r&#34;:0.015686275437474251,&#34;g&#34;:0.63137257099151611,&#34;b&#34;:0.36862745881080627,&#34;a&#34;:1.0},&#34;position&#34;:0.56456440687179565}],&#34;transform&#34;:{&#34;m00&#34;:-370.23245239257812,&#34;m01&#34;:479.12438964843750,&#34;m02&#34;:286.784667968750,&#34;m10&#34;:395.71441650390625,&#34;m11&#34;:305.7792968750,&#34;m12&#34;:-9.8487224578857422},&#34;opacity&#34;:0.750,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"/>
+</g>
+</g>
+<mask id="mask1_95_81" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="0" width="1264" height="817">
+<rect width="1264" height="815.02" rx="20" transform="matrix(-1 0 0 1 1268 0.979736)" fill="#232539"/>
+</mask>
+<g mask="url(#mask1_95_81)">
+</g>
+<mask id="mask2_95_81" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="0" width="1264" height="816">
+<rect width="1264" height="815.02" rx="20" transform="matrix(-1 0 0 1 1268 0)" fill="#232539"/>
+</mask>
+<g mask="url(#mask2_95_81)">
+<g filter="url(#filter2_f_95_81)">
+<g clip-path="url(#paint1_angular_95_81_clip_path)" data-figma-skip-parse="true"><g transform="matrix(-0.139326 0.179218 0.180304 0.138487 335.306 417.306)"><foreignObject x="-1523.89" y="-1523.89" width="3047.78" height="3047.78"><div xmlns="http://www.w3.org/1999/xhtml" style="background:conic-gradient(from 90deg,rgba(17, 51, 57, 1) 0deg,rgba(19, 35, 52, 1) 23.0012deg,rgba(4, 161, 94, 1) 203.243deg,rgba(17, 51, 57, 1) 360deg);height:100%;width:100%;opacity:0.75"></div></foreignObject></g></g><path d="M88.925 417.306C88.925 552.56 199.234 662.204 335.306 662.204C471.379 662.204 581.688 552.56 581.688 417.306C581.688 282.053 471.379 172.408 335.306 172.408C199.234 172.408 88.925 282.053 88.925 417.306Z" data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.074509806931018829,&#34;g&#34;:0.13725490868091583,&#34;b&#34;:0.20392157137393951,&#34;a&#34;:1.0},&#34;position&#34;:0.063892103731632233},{&#34;color&#34;:{&#34;r&#34;:0.015686275437474251,&#34;g&#34;:0.63137257099151611,&#34;b&#34;:0.36862745881080627,&#34;a&#34;:1.0},&#34;position&#34;:0.56456440687179565}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.074509806931018829,&#34;g&#34;:0.13725490868091583,&#34;b&#34;:0.20392157137393951,&#34;a&#34;:1.0},&#34;position&#34;:0.063892103731632233},{&#34;color&#34;:{&#34;r&#34;:0.015686275437474251,&#34;g&#34;:0.63137257099151611,&#34;b&#34;:0.36862745881080627,&#34;a&#34;:1.0},&#34;position&#34;:0.56456440687179565}],&#34;transform&#34;:{&#34;m00&#34;:-278.65158081054688,&#34;m01&#34;:360.60794067382812,&#34;m02&#34;:294.32803344726562,&#34;m10&#34;:358.43692016601562,&#34;m11&#34;:276.97396850585938,&#34;m12&#34;:99.60070800781250},&#34;opacity&#34;:0.750,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"/>
+</g>
+</g>
+<defs>
+<filter id="filter1_f_95_81" x="-565.304" y="-508.648" width="1813.07" height="1699.09" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="289.589" result="effect1_foregroundBlur_95_81"/>
+</filter>
+<clipPath id="paint0_angular_95_81_clip_path"><path d="M13.8743 340.898C13.8743 490.218 160.437 611.266 341.231 611.266C522.025 611.266 668.587 490.218 668.587 340.898C668.587 191.578 522.025 70.5308 341.231 70.5308C160.437 70.5308 13.8743 191.578 13.8743 340.898Z"/></clipPath><filter id="filter2_f_95_81" x="-258.583" y="-175.099" width="1187.78" height="1184.81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="173.754" result="effect1_foregroundBlur_95_81"/>
+</filter>
+<clipPath id="paint1_angular_95_81_clip_path"><path d="M88.925 417.306C88.925 552.56 199.234 662.204 335.306 662.204C471.379 662.204 581.688 552.56 581.688 417.306C581.688 282.053 471.379 172.408 335.306 172.408C199.234 172.408 88.925 282.053 88.925 417.306Z"/></clipPath></defs>
+</svg>

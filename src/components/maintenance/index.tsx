@@ -49,7 +49,7 @@ export function MaintenanceLandingPage() {
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center gap-2">
               <img
-                src="/src/assets/logo-mavellium.svg"
+                src="./logo-mavellium.svg"
                 alt="Logo Mavellium"
                 className="h-8 sm:h-10"
               />
@@ -62,7 +62,7 @@ export function MaintenanceLandingPage() {
                 className="flex items-center gap-2 rounded-lg bg-[#008E52] px-3 py-2 text-white text-base font-medium shadow-lg shadow-primary/20 hover:bg-[#017346] transition-colors"
               >
                 <img
-                  src="/src/assets/ic_baseline-whatsapp.svg"
+                  src="./ic_baseline-whatsapp.svg"
                   alt="whatsapp"
                   className="w-6"
                 />
@@ -135,7 +135,7 @@ export function MaintenanceLandingPage() {
                   className="flex items-center justify-center gap-2 rounded-lg bg-[#008E52] px-4 py-3 text-white text-lg font-medium shadow-lg shadow-primary/20 hover:bg-[#017346] transition-colors w-full sm:w-auto"
                 >
                   <img
-                    src="/src/assets/ic_baseline-whatsapp.svg"
+                    src="./ic_baseline-whatsapp.svg"
                     alt="whatsapp"
                     className="w-6"
                   />
@@ -172,7 +172,7 @@ export function MaintenanceLandingPage() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center">
               <img
-                src="/src/assets/logo-mavellium-menor.svg"
+                src="./logo-mavellium-menor.svg"
                 alt="Logo Mavellium"
               />
             </div>
@@ -195,7 +195,7 @@ export function MaintenanceLandingPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="/src/assets/mdi_instagram.svg" alt="Instagram" />
+                  <img src="./mdi_instagram.svg" alt="Instagram" />
                 </a>
               </Button>
               <Button
@@ -209,7 +209,7 @@ export function MaintenanceLandingPage() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/src/assets/ic_baseline-whatsapp.svg"
+                    src="./ic_baseline-whatsapp.svg"
                     alt="Whatsapp"
                     className="w-[32px] sm:w-[65px]"
                   />
